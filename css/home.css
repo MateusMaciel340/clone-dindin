@@ -1,0 +1,33 @@
+/* Main */
+main{
+    max-width: 1000px; margin: 0 auto;
+}
+/* Sessão 01 */
+main .apresentacao{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+main .apresentacao div{
+    width: 100%;
+    padding: 10px; flex-wrap: wrap; border: 2px solid black;
+}
+main .apresentacao > div{
+    flex: 1 1 100px;
+}
+main .apresentacao .escopo-apresentacao h1{
+    color: #FF4081; font-size: 65px; 
+}
+main .apresentacao .escopo-apresentacao p{
+    color: #555555; font-size: 27px;
+    font-style: normal;
+    margin: 10px 0px 10px 0px;
+}
+main .apresentacao .botao button{
+    background-color: transparent; border: none;
+    border: 2px solid #FF4081; color: #FF4081;
+    border-radius: 62px; font-size: 27px;
+    padding: 5px 20px 5px 20px;
+    margin: 10px 0px 10px 0px;
+}
+

@@ -1,0 +1,26 @@
+/* Responsividade */
+@media(max-width: 701px){
+    main .apresentacao{
+        flex-direction: column;
+        padding: 5px; margin-top: 0px;
+    }
+    main .apresentacao div{
+        padding: 0px;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer div, .footer-logo{
+        padding: 20px;
+    }
+    footer .footer-links .lista-footer-links li a, footer .footer-botoes .lista-footer-botoes button{
+        font-size: 23px;
+    }
+}
+
+@media(max-width:320px){
+    main .apresentacao .escopo-apresentacao h1{
+        font-size: 50px;
+    }
+}

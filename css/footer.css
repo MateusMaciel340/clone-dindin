@@ -1,0 +1,42 @@
+/* Footer */
+footer{
+    background-color: #419488; display: flex;
+    justify-content: space-evenly;
+    padding: 30px; border: 2px solid black;
+}
+footer .footer-logo{
+    display: flex; align-items: center;
+    border: 2px solid black;
+}
+footer .footer-logo h1{
+    color: #FFFFFF; font-size: 60px;
+    border: 2px solid black;
+}
+footer .footer-links .lista-footer-links{
+    list-style: none; border: 2px solid black;
+}
+footer .footer-links li{
+    margin-top: 5px; border: 2px solid black;
+}
+footer .footer-links a{
+    text-decoration: none; color: #FFFFFF;
+    font-size: 20px;
+}
+footer .footer-botoes .lista-footer-botoes{
+    list-style: none; border: 2px solid black;
+}
+footer .footer-botoes .lista-footer-botoes li{
+    border: 2px solid black;
+}
+footer .footer-botoes .lista-footer-botoes button{
+    background-color: transparent; border: 2px solid #FFFFFF;
+    color: #FFFFFF; border-radius: 62px;
+    font-size: 20px; cursor: pointer;
+}
+footer .footer-botoes .lista-footer-botoes .professor{
+    padding: 10px 40px 10px 40px;
+}
+footer .footer-botoes .lista-footer-botoes .outro-link{
+    padding: 10px 20px 10px 30px;
+    margin-top: 10px;
+}
