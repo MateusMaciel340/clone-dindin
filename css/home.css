@@ -2,11 +2,11 @@
 main{
     max-width: 1000px; margin: 0 auto;
 }
-/* Sessão 01 */
+/* Seção 01 */
 main .apresentacao{
     display: flex;
+    margin-bottom: 80px; max-width: 1000px; margin: 0 auto;
     margin-top: 80px;
-    margin-bottom: 80px;
 }
 main .apresentacao div{
     width: 100%;
@@ -31,3 +31,39 @@ main .apresentacao .botao button{
     margin: 10px 0px 10px 0px;
 }
 
+/* Seção 02 */
+main .cursos{
+    display: flex; text-align: center;
+    background-color: #F6F6F6;
+    border: 2px solid black;
+    margin-top: 60px; margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+main .cursos > div{
+    flex: 1 1 100px;
+}
+main .cursos .modelo-cursos{
+     border: 2px solid black;
+}
+main .cursos div{
+    margin: 5px; flex-wrap: wrap;
+}
+main .cursos .modelo-cursos img{
+    margin-top: 20px; border: 2px solid black;
+}
+main .cursos .modelo-cursos h1{
+    color: #FF4081; font-size: 22px;
+    margin-bottom: 10px; 
+    border: 2px solid black;
+}
+main .cursos .modelo-cursos p{
+    color: #000000; margin-top: 10px; margin-bottom: 20px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+main .cursos .modelo-cursos button{
+    background-color: #FF4081; border: none; color: #FFFFFF;
+    font-size: 20px; padding: 10px 40px 10px 40px;
+    border-radius: 62px; margin-bottom: 20px;
+    cursor: pointer;
+}

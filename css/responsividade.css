@@ -19,6 +19,18 @@
     }
 }
 
+@media(max-width:770px){
+    main .cursos .modelo-cursos h1{
+        font-size: 35px;
+    }
+    main .cursos .modelo-cursos p{
+        font-size: 20px;
+    }
+    main .cursos .modelo-cursos button{
+        font-size: 30px;
+    }
+}
+
 @media(max-width:320px){
     main .apresentacao .escopo-apresentacao h1{
         font-size: 50px;
