@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsividade.css">
+    <link rel="stylesheet" href="css/menu-mobile.css">
 </head>
 <body>
     <!-- Header -->
@@ -18,13 +19,21 @@
             <h1>dindin</h1>
         </div>
 
-        <div class="header-menu">
-            <ul class="lista-header-menu">
+        <div class="header-menu" id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <ul class="lista-header-menu" id="menu" role="menu">
                 <li>
                     <a href="#">Cursos</a>
+                </li>
+                <li>
                     <a href="#">Blog</a>
+                </li>
+                <li>
                     <a href="#">Contato</a>
                 </li>
+                
             </ul>
         </div>
     </header>
@@ -100,5 +109,9 @@
         </div>
     </footer>
     <!-- Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <!-- JavaScript -->
 </body>
 </html>

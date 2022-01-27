@@ -11,23 +11,23 @@ body{
 header{
     background-color: #2E948A; display: flex;
     justify-content: space-between; align-items: center;
-    padding: 15px; flex-wrap: wrap;
+    padding: 15px; flex-wrap: wrap; border: 2px solid black;
 }
 header .header-imagem{
     display: flex; align-items: center;
-    margin-left: 50px;
+    margin-left: 50px; border: 2px solid black;
 }
 header .header-imagem h1{
-    color: #FDFDFD; margin-left: 5px;
+    color: #FDFDFD; margin-left: 5px; border: 2px solid black;
 }
 header .header-menu{
-    margin-right: 50px;
+    margin-right: 50px; border: 2px solid black;
 }
 header .header-menu .lista-header-menu{
-    list-style: none;
+    list-style: none; display: flex; border: 2px solid black;
 }
 header .header-menu .lista-header-menu li a{
     text-decoration: none; color: #FDFDFD;
     font-size: 20px; text-transform: uppercase;
-    margin-left: 20px;
+    margin-left: 20px; border: 2px solid black;
 }
