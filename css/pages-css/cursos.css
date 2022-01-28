@@ -1,0 +1,40 @@
+.cursos{
+    max-width: 1000px; margin: 0 auto;
+    margin-top: 50px; margin-bottom: 50px; 
+    padding: 10px;
+}
+.cursos .titulo-paragrafo-cursos h1{
+    color: #FF4081; font-size: 60px; 
+}
+.cursos .titulo-paragrafo-cursos p{
+    font-size: 20px; 
+}
+.cursos .selecao-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cursos .selecao-cursos > div{
+    flex: 1 1 100px; width: 100%;
+    margin-bottom: 40px; margin-top: 40px;
+}
+.cursos .selecao-cursos .selecao-cursos-imagem{
+     text-align: center; 
+}
+.cursos .selecao-cursos .selecao-cursos-informacoes h1{
+    font-size: 32px; color: #FF4081; 
+}
+.cursos .selecao-cursos .selecao-cursos-informacoes p{
+    color: #000000; font-size: 18px; 
+    margin-top: 20px;
+}
+.cursos .selecao-cursos .selecao-cursos-informacoes .botao button{
+    background-color: #2E948A; border: none; color: #FFFFFF;
+    font-size: 22px; padding: 8px 30px 8px 30px;
+    border-radius: 62px;
+    margin-top: 30px;
+}
+.cursos .listagem{
+    background-color: #C4C4C4; font-weight: bold;
+    margin-top: 20px; margin-bottom: 20px;
+    padding: 2px;
+}

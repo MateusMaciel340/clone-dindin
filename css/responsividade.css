@@ -13,6 +13,21 @@
     .falam-sobre-nos .mensagens-falam-sobre-nos{
         grid-template-columns: repeat(1, 1fr);
     }
+    .cursos .selecao-cursos .selecao-cursos-imagem img{
+        width: 300px;
+    }
+    .cursos .titulo-paragrafo-cursos h1{
+        font-size: 70px;
+    }
+    .cursos .selecao-cursos .selecao-cursos-informacoes h1{
+        font-size: 40px;
+    }
+    .cursos .selecao-cursos .selecao-cursos-informacoes p{
+        font-size: 25px;
+    }
+    .cursos .selecao-cursos .selecao-cursos-informacoes .botao button{
+        font-size: 30px;
+    }
     footer{
         flex-direction: column;
         text-align: center;
