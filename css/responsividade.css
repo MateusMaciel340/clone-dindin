@@ -4,6 +4,9 @@
         flex-direction: column;
         padding: 5px; margin-top: 0px;
     }
+    main .conteudos-blog{
+        flex-direction: column;
+    }
     main .apresentacao div{
         padding: 0px;
     }
@@ -27,6 +30,16 @@
         font-size: 20px;
     }
     main .cursos .modelo-cursos button{
+        font-size: 30px;
+    }
+
+    main .conteudos-blog .conteudo-blog h1{
+        font-size: 35px;
+    }
+    main .conteudos-blog .conteudo-blog p{
+        font-size: 20px;
+    }
+    main .conteudo-blog-botao button{
         font-size: 30px;
     }
 }
