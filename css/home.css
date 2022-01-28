@@ -1,29 +1,26 @@
-/* Main */
-main{
-    max-width: 1000px; margin: 0 auto;
-}
 /* Seção 01 */
-main .apresentacao{
+.apresentacao{
     display: flex;
-    margin-bottom: 80px; max-width: 1000px; margin: 0 auto;
+    max-width: 1000px; margin: 0 auto;
+    margin-bottom: 80px;
     margin-top: 80px;
 }
-main .apresentacao div{
+.apresentacao div{
     width: 100%;
-    padding: 10px; flex-wrap: wrap; border: 2px solid black;
+    padding: 10px; flex-wrap: wrap; 
 }
-main .apresentacao > div{
+.apresentacao > div{
     flex: 1 1 100px;
 }
-main .apresentacao .escopo-apresentacao h1{
+.apresentacao .escopo-apresentacao h1{
     color: #FF4081; font-size: 65px; 
 }
-main .apresentacao .escopo-apresentacao p{
+.apresentacao .escopo-apresentacao p{
     color: #555555; font-size: 27px;
     font-style: normal;
     margin: 10px 0px 10px 0px;
 }
-main .apresentacao .botao button{
+.apresentacao .botao button{
     background-color: transparent; border: none;
     border: 2px solid #FF4081; color: #FF4081;
     border-radius: 62px; font-size: 27px;
@@ -32,69 +29,109 @@ main .apresentacao .botao button{
 }
 
 /* Seção 02 */
-main .cursos{
+.coloracao-geral-cursos{
+    background-color:#F6F6F6;
+}
+.cursos{
     display: flex; text-align: center;
     background-color: #F6F6F6;
-    border: 2px solid black;
-    margin-top: 60px; margin-bottom: 60px;
     flex-wrap: wrap;
+    max-width: 1000px; margin: 0 auto;
+    margin-top: 100px; margin-bottom: 80px;
 }
-main .cursos > div{
+.cursos > div{
     flex: 1 1 100px;
 }
-main .cursos .modelo-cursos{
-     border: 2px solid black;
-}
-main .cursos div{
+.cursos div{
     margin: 5px; flex-wrap: wrap;
 }
-main .cursos .modelo-cursos img{
-    margin-top: 20px; border: 2px solid black;
+.cursos .modelo-cursos img{
+    margin-top: 20px; 
 }
-main .cursos .modelo-cursos h1{
+.cursos .modelo-cursos h1{
     color: #FF4081; font-size: 22px;
     margin-bottom: 10px; 
-    border: 2px solid black;
+    
 }
-main .cursos .modelo-cursos p{
+.cursos .modelo-cursos p{
     color: #000000; margin-top: 10px; margin-bottom: 20px;
-    border: 2px solid black;
     font-size: 18px;
 }
-main .cursos .modelo-cursos button{
+.cursos .modelo-cursos button{
     background-color: #FF4081; border: none; color: #FFFFFF;
     font-size: 20px; padding: 10px 40px 10px 40px;
     border-radius: 62px; margin-bottom: 20px;
     cursor: pointer;
 }
+/* Seção 03 */
+.falam-sobre-nos{
+    max-width: 1000px; margin: 0 auto;
+    margin-bottom: 80px;
+}
+.falam-sobre-nos .titulo-falam-sobre-nos h1{
+    font-size: 37px; text-transform: uppercase;
+    color: #009688;
+    margin-bottom: 60px; margin-top: 60px;
+}
+.falam-sobre-nos .mensagens-falam-sobre-nos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 150px;
+}
+.falam-sobre-nos .mensagens-falam-sobre-nos div{
+    display: flex; align-items: center;
+}
+.falam-sobre-nos .mensagens-falam-sobre-nos img{
+    border-radius: 62px; border: 2px solid #FF4081;
+    text-align: center;
+}
+.falam-sobre-nos .mensagens-falam-sobre-nos p{
+    margin: 10px;
+}
 
 /* Seção 04 */
-main .conteudos-blog{
-    display: flex; margin-top: 0px;
-    background-color: #E5E5E5; border: 2px solid black;
+.coloracao-geral-blog{
+    background-color: #E5E5E5;
+}
+.conteudos-blog{
+    background-color: #E5E5E5;
+    max-width: 1000px; margin: 0 auto;
+}
+.grupo-conteudo-blog{
+    display: flex;
     flex-wrap: wrap;
 }
-main .conteudos-blog > div{
+.grupo-conteudo-blog > div{
     flex:1 1 100px;
 }
-main .conteudos-blog .conteudo-blog{
-    margin: 10px; border: 2px solid black;
+.conteudos-blog .conteudo-blog{
+    margin: 10px;
 }
-main .conteudos-blog .conteudo-blog img{
-    width: 100%; margin-bottom: 10px; border: 2px solid black;
+.conteudos-blog .conteudo-blog img{
+    width: 100%; margin-bottom: 10px; 
 }
-main .conteudos-blog .conteudo-blog h1{
-    font-size: 24px; border: 2px solid black;
+.conteudos-blog .titulo-conteudo-blog h1{
+    color: #009688; text-transform: uppercase;
+    font-size: 37px; margin-bottom: 60px;
+    margin-top: 60px;
+} 
+.conteudos-blog .titulo-conteudo-blog{
+    border: 2px solid #E5E5E5;
 }
-main .conteudos-blog .conteudo-blog p{
+.conteudos-blog .conteudo-blog h1{
+    font-size: 24px; 
+    color: #009688;
+}
+.conteudos-blog .conteudo-blog p{
     font-size: 17px; color: #000000;
-    margin-bottom: 20px; border: 2px solid black;
+    margin-bottom: 20px; 
 }
-main .conteudo-blog-botao{
-    background-color: #E5E5E5; border: 2px solid black;
-    padding: 10px; text-align: center; border: 2px solid black;
+.conteudo-blog-botao{
+    background-color: #E5E5E5; 
+    padding: 10px; text-align: center; 
+    max-width: 1000px; margin: 0 auto;
 }
-main .conteudo-blog-botao button{
+.conteudo-blog-botao button{
     background-color: transparent; border: 2px solid #FF4081;
     color: #FF4081; font-size: 23px; border-radius: 62px;
     padding: 5px 20px 5px 20px;

@@ -1,14 +1,17 @@
 /* Responsividade */
 @media(max-width: 701px){
-    main .apresentacao{
+    .apresentacao{
         flex-direction: column;
         padding: 5px; margin-top: 0px;
     }
-    main .conteudos-blog{
+    .conteudos-blog{
         flex-direction: column;
     }
-    main .apresentacao div{
+    .apresentacao div{
         padding: 0px;
+    }
+    .falam-sobre-nos .mensagens-falam-sobre-nos{
+        grid-template-columns: repeat(1, 1fr);
     }
     footer{
         flex-direction: column;
@@ -23,29 +26,29 @@
 }
 
 @media(max-width:770px){
-    main .cursos .modelo-cursos h1{
+    .cursos .modelo-cursos h1{
         font-size: 35px;
     }
-    main .cursos .modelo-cursos p{
+    .cursos .modelo-cursos p{
         font-size: 20px;
     }
-    main .cursos .modelo-cursos button{
+    .cursos .modelo-cursos button{
         font-size: 30px;
     }
 
-    main .conteudos-blog .conteudo-blog h1{
+    .conteudos-blog .conteudo-blog h1{
         font-size: 35px;
     }
-    main .conteudos-blog .conteudo-blog p{
+    .conteudos-blog .conteudo-blog p{
         font-size: 20px;
     }
-    main .conteudo-blog-botao button{
+    .conteudo-blog-botao button{
         font-size: 30px;
     }
 }
 
 @media(max-width:320px){
-    main .apresentacao .escopo-apresentacao h1{
+    .apresentacao .escopo-apresentacao h1{
         font-size: 50px;
     }
 }
