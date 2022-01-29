@@ -1,4 +1,11 @@
 /* Responsividade */
+@media(max-width:900px){
+    .contato .escopo-geral-contato .imagem-contato img{
+       margin: 0px; width: 100%;
+    }
+}
+
+
 @media(max-width: 701px){
     .apresentacao{
         flex-direction: column;
@@ -27,6 +34,18 @@
     }
     .cursos .selecao-cursos .selecao-cursos-informacoes .botao button{
         font-size: 30px;
+    }
+    .contato .escopo-geral-contato{
+        flex-direction: column;
+    }
+    .contato .escopo-geral-contato .imagem-contato img{
+       margin: 0px; width: 100%;
+    }
+    .contato .escopo-geral-contato form input, textarea{
+        font-size: 20px;
+    }
+    .contato .escopo-geral-contato form .botao button{
+        font-size: 25px;
     }
     footer{
         flex-direction: column;
