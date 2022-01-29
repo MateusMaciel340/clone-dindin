@@ -1,0 +1,45 @@
+/* Seção header do blog */
+
+.topo-blog{
+    max-width: 900px; margin: 0 auto;
+    margin-top: 40px; margin-bottom: 40px;
+    padding: 5px;
+}
+.topo-blog .escopo-topo-blog{
+    display: flex; flex-wrap: wrap;
+}
+.topo-blog .escopo-topo-blog > div{
+    flex: 1 1 100px; 
+}
+.topo-blog .escopo-topo-blog .escopo-topo-blog-informacoes h1{
+    font-size: 47px; color: #009688;
+    text-transform: uppercase;
+}
+.topo-blog .escopo-topo-blog .escopo-topo-blog-informacoes p{
+    font-size: 20px; margin-top: 45px;
+}
+.topo-blog .escopo-topo-blog .assunto-blog img{
+    width: 100%;
+}
+
+
+/* Assuntos do blog */
+.assuntos-blog{
+    background-color: #E5E5E5;
+}
+.assuntos-blog .escopo-assuntos-blog{
+    max-width: 1100px; margin: 0 auto;
+    display: flex; flex-wrap: wrap;
+    padding: 5px;
+}
+.assuntos-blog .escopo-assuntos-blog > div{
+    flex: 1 1 400px; margin-bottom: 40px;
+    margin-left: 30px; margin-top: 40px;
+}
+.assuntos-blog .escopo-assuntos-blog .assunto-blog img{
+    width: 100%;
+}
+.assuntos-blog .escopo-assuntos-blog .assunto-blog h1{
+    font-size: 30px; color: #FF4081;
+    margin-top: 15px; margin-bottom: 15px;
+}

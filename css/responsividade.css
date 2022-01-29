@@ -3,6 +3,11 @@
     .contato .escopo-geral-contato .imagem-contato img{
        margin: 0px; width: 100%;
     }
+    .assuntos-blog .escopo-assuntos-blog > div{
+        margin-left: 10px;
+        margin-right: 10px;
+        flex: 1 1 300px;
+    }
 }
 
 
@@ -46,6 +51,17 @@
     }
     .contato .escopo-geral-contato form .botao button{
         font-size: 25px;
+    }
+    .assuntos-blog .escopo-assuntos-blog > div{
+        margin-left: 0px;
+    }
+    .topo-blog .escopo-topo-blog{
+       flex-direction: column;
+       margin-bottom: 50px;
+    }
+    .assuntos-blog .escopo-assuntos-blog > div{
+        margin-left: 10px;
+        margin-right: 10px;
     }
     footer{
         flex-direction: column;
