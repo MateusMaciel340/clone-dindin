@@ -7,10 +7,11 @@
 }
 .apresentacao div{
     width: 100%;
-    padding: 10px; flex-wrap: wrap; 
+    padding: 10px; flex-wrap: wrap;
 }
 .apresentacao > div{
     flex: 1 1 100px;
+    padding: 10px !important;
 }
 .apresentacao .escopo-apresentacao h1{
     color: #FF4081; font-size: 65px; 
@@ -25,7 +26,7 @@
     border: 2px solid #FF4081; color: #FF4081;
     border-radius: 62px; font-size: 27px;
     padding: 5px 20px 5px 20px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px; cursor: pointer;
 }
 
 /* Seção 02 */
@@ -51,6 +52,7 @@
 .cursos .modelo-cursos h1{
     color: #FF4081; font-size: 22px;
     margin-bottom: 10px; 
+    margin-top: 10px;
     
 }
 .cursos .modelo-cursos p{
@@ -67,6 +69,7 @@
 .falam-sobre-nos{
     max-width: 1000px; margin: 0 auto;
     margin-bottom: 80px;
+    padding: 10px;
 }
 .falam-sobre-nos .titulo-falam-sobre-nos h1{
     font-size: 37px; text-transform: uppercase;
@@ -88,10 +91,17 @@
 .falam-sobre-nos .mensagens-falam-sobre-nos p{
     margin: 10px;
 }
+.falam-sobre-nos .mensagens-falam-sobre-nos ul{
+    list-style: none; margin-left: 15px;
+}
+.falam-sobre-nos .mensagens-falam-sobre-nos ul li{
+    margin-top: 7px;
+}
 
 /* Seção 04 */
 .coloracao-geral-blog{
     background-color: #E5E5E5;
+    padding: 10px;
 }
 .conteudos-blog{
     background-color: #E5E5E5;
@@ -102,7 +112,7 @@
     flex-wrap: wrap;
 }
 .grupo-conteudo-blog > div{
-    flex:1 1 100px;
+    flex:1 1 200px;
 }
 .conteudos-blog .conteudo-blog{
     margin: 10px;
@@ -136,4 +146,7 @@
     color: #FF4081; font-size: 23px; border-radius: 62px;
     padding: 5px 20px 5px 20px;
     margin-bottom: 40px; margin-top: 40px; cursor: pointer;
+}
+a{
+    text-decoration: none;
 }

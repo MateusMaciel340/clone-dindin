@@ -31,7 +31,7 @@
     background-color: #2E948A; border: none; color: #FFFFFF;
     font-size: 22px; padding: 8px 30px 8px 30px;
     border-radius: 62px;
-    margin-top: 30px;
+    margin-top: 30px; cursor: pointer;
 }
 .cursos .listagem{
     background-color: #C4C4C4; font-weight: bold;
