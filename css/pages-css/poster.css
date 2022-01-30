@@ -1,0 +1,73 @@
+main .poster{
+    max-width: 900px; margin: 0 auto;
+    padding: 20px;
+}
+main .poster .escopo-poster{
+    margin-bottom: 100px;
+}
+main .poster .escopo-poster .titulo-poster{
+    text-align: center;
+}
+main .poster .escopo-poster .titulo-poster h1{
+    font-size: 50px; color: #FF4081;
+    margin-top: 50px;
+}
+main .poster .escopo-poster .titulo-poster p{
+    font-size: 18px; color: #9D9D9D;
+    margin-bottom: 50px;
+}
+main .poster .escopo-poster .poster-geral img{
+    width: 100%;
+}
+main .poster .escopo-poster .poster-geral p{
+    font-size: 26px; 
+    margin-top: 30px;
+}
+main .poster .escopo-poster .poster-geral h2{
+    color: #2E948A; font-size: 30px;
+    margin-top: 20px;
+}
+/* Poster - Nossos cursos */
+.coloracao-geral-cursos{
+    background-color:#F6F6F6; border: 2px solid #F6F6F6;
+}
+.coloracao-geral-cursos .cursos{
+     margin-top: 50px;
+    margin-bottom: 70px;
+}
+.cursos{
+    display: flex; text-align: center;
+    background-color: #F6F6F6;
+    flex-wrap: wrap;
+    max-width: 1200px; margin: 0 auto;
+}
+.cursos > div{
+    flex: 1 1 100px;
+}
+.cursos div{
+    margin: 5px; flex-wrap: wrap;
+}
+.coloracao-geral-cursos .titulo-cursos h1{
+    color: #FF4081; font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px; border: 2px solid #F6F6F6;
+    margin-top: 80px;
+}
+.cursos .modelo-cursos img{
+    margin-top: 20px; 
+}
+.cursos .modelo-cursos h1{
+    color: #FF4081; font-size: 22px;
+    margin-bottom: 10px; margin-top: 10px;
+    
+}
+.cursos .modelo-cursos p{
+    color: #000000; margin-top: 10px; margin-bottom: 20px;
+    font-size: 18px;
+}
+.cursos .modelo-cursos button{
+    background-color: #FF4081; border: none; color: #FFFFFF;
+    font-size: 20px; padding: 10px 40px 10px 40px;
+    border-radius: 62px; margin-bottom: 20px;
+    cursor: pointer;
+}
