@@ -63,6 +63,27 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    main .investimento-iniciantes .escopo-investimento-iniciantes .investimento-iniciantes-informacoes h1{
+        font-size: 40px;
+    }
+    main .investimento-iniciantes .escopo-investimento-iniciantes{
+        flex-direction: column;
+    }
+    .curso-aulas .escopo-curso-aulas {
+        flex-direction: column;
+    }
+    .curso-aulas .escopo-curso-aulas .curso-aulas-video{
+        margin: 10px;
+    }
+    .curso-aulas .escopo-curso-aulas .curso-aulas-descricao{
+        margin: 20px; margin-bottom: 30px;
+    }
+    .investimento-iniciantes .escopo-investimento-iniciantes .investimento-iniciantes-informacoes h1{
+        font-size: 40px;
+    }
+    .investimento-iniciantes{
+        margin: 10px;
+    }
     footer{
         flex-direction: column;
         text-align: center;

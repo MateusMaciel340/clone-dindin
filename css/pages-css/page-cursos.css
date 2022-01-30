@@ -1,0 +1,58 @@
+.investimento-iniciantes{
+    max-width: 950px; margin: 0 auto;
+    padding: 10px;
+}
+.investimento-iniciantes .escopo-investimento-iniciantes{
+    display: flex; margin-top: 50px; margin-bottom: 50px;
+    flex-wrap: wrap; 
+}
+.investimento-iniciantes .escopo-investimento-iniciantes > div{
+    flex: 1 1 100px; 
+}
+.investimento-iniciantes .escopo-investimento-iniciantes .investimento-iniciantes-informacoes h1{
+    color: #FF4081; font-size: 55px; 
+}
+.investimento-iniciantes .escopo-investimento-iniciantes .investimento-iniciantes-informacoes p{
+    font-size: 20px; margin-top: 20px; 
+}
+.investimento-iniciantes .escopo-investimento-iniciantes .investimento-iniciantes-image{
+     width: 100%;
+}
+
+/* Vídeo aulas */
+main{
+    background-color: #F6F6F6;
+    padding: 10px;
+}
+.curso-aulas{
+    max-width: 950px; margin: 0 auto; 
+    margin-top: 50px;
+}
+.curso-aulas .escopo-curso-aulas{
+    display: flex; flex-wrap: wrap;
+}
+.curso-aulas .escopo-curso-aulas > div{
+    flex: 1 1 100px;  margin-bottom: 50px;
+}
+.curso-aulas .escopo-curso-aulas .curso-aulas-video{
+    margin-top: 40px;
+}
+.curso-aulas .escopo-curso-aulas .curso-aulas-video img{
+    width: 100%;
+}
+.curso-aulas .escopo-curso-aulas .curso-aulas-descricao{
+    margin: 20px; margin-left: 70px;
+}
+.curso-aulas .escopo-curso-aulas .curso-aulas-descricao h1{
+    color: #FF4081; font-size: 35px;
+    margin-top: 18px; 
+}
+.curso-aulas .escopo-curso-aulas .curso-aulas-descricao p{
+    font-size: 20px; margin-top: 20px; 
+}
+.listagem{
+    background-color: #C4C4C4; font-weight: bold;
+    margin-top: 20px; margin-bottom: 20px;
+    padding: 2px; max-width: 1100px;
+    margin: 0 auto;
+}
